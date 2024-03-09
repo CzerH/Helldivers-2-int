@@ -47,7 +47,7 @@ void displayCheckboxes(const std::vector<Checkbox>& checkboxes, size_t selectedC
     printf(_XOR_("[Init] - Helldiver 2 PoC DLL Proxy...\n"));
     printf(_XOR_("[Init] - Thanks to cfemen and gir489...\n"));
 
-    printf(_XOR_("[Ready] : Select some of the features below by pressing [Space].\n"));
+    printf(_XOR_("[Ready] : Select some of the features below by pressing the [Space] key.\n"));
     printf(_XOR_("[Ready] : Press [Enter] to run the feature you selected.\n"));
     printf(_XOR_("[Ready] : After pressing [Enter], the selected features cannot be changed.\n"));
 
@@ -74,33 +74,33 @@ DWORD WINAPI Payload(LPVOID lpParam)
 
     //Console Menu
     std::vector<Checkbox> checkboxes = { 
-          {_XOR_("I Health"), false}
-        , {_XOR_("I Grenades"), false}
-        , {_XOR_("I Grenades(Legit)"), false}
-        , {_XOR_("I Ammo"), false}
-        , {_XOR_("I Ammo(Legit)"), false}
-        , {_XOR_("I Syringes"), false}
-        , {_XOR_("I Syringes(Legit)"), false}
-        , {_XOR_("I Stamina"), false}
-        , {_XOR_("I Stratagems"), false}
+          {_XOR_("Inf Health"), false}
+        , {_XOR_("Inf Grenades"), false}
+        , {_XOR_("Inf Grenades(Legit)"), false}
+        , {_XOR_("Inf Ammo"), false}
+        , {_XOR_("Inf Ammo(Legit)"), false}
+        , {_XOR_("Inf Syringes"), false}
+        , {_XOR_("Inf Syringes(Legit)"), false}
+        , {_XOR_("Inf Stamina"), false}
+        , {_XOR_("Inf Stratagems"), false}
         , {_XOR_("MoveSpeed X6"), false}
-        , {_XOR_("I Mission Time"), false}
+        , {_XOR_("Inf Mission Time"), false}
         //, {"One / Two Hit Kill ( Bile Titan Bug, Aim Only Head )", false}
-        , {_XOR_("N Reload"), false}
-        , {_XOR_("Mx Resources"), false}
-        , {_XOR_("5 Samples"), false}
-        , {_XOR_("Recoil"), false}
-        , {_XOR_("I Backpack"), false}
-        , {_XOR_("I Special Weapon"), false}
+        , {_XOR_("No Reload"), false}
+        , {_XOR_("Max Resources"), false}
+        , {_XOR_("Add 5 Samples"), false}
+        , {_XOR_("No Recoil"), false}
+        , {_XOR_("Inf Backpack"), false}
+        , {_XOR_("Inf Special Weapon"), false}
         , {_XOR_("No Laser Cannon Overheat"), false}
         , {_XOR_("Instant Railgun"), false}
         , {_XOR_("Show All Map Icons"), false}
         , {_XOR_("No Stationary Turret Overheat"), false}
         , {_XOR_("No Backpack Shield Cooldown"), false}
         , {_XOR_("No JetPack Cooldown"), false}
-        , {_XOR_("All Stratagems"), false}
-        , {_XOR_("All Equipment"), false}
-        , {_XOR_("All Armor"), false}
+        , {_XOR_("All Stratagems in Loadout"), false}
+        , {_XOR_("All Equipment in Armory"), false}
+        , {_XOR_("All Armor in Armory"), false}
     
     }; // Initialize all checkboxes to unchecked
     const int numCheckboxes = checkboxes.size();
