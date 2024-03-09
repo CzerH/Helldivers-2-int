@@ -2,22 +2,22 @@
 class GameData
 {
 	public:
-		bool	InfAmmo = false;
-		bool	InfAmmoLegit = false;
-		bool	InfGrenades = false;
-		bool	InfGrenadesLegit = false;
-		bool	InfSyringes = false;
-		bool	InfSyringesLegit = false;
-		bool	InfStratagems = false;
-		bool	InfMissionTime = false;
-		bool	InfStamina = false;
-		bool	InfHealth = false;
-		bool	NoReload = false;
-		bool	MaxResources = false;
-		bool	Add5Resources = false;
+		bool	IAmmo = false;
+		bool	IAmmoLegit = false;
+		bool	IGrenades = false;
+		bool	IGrenadesLegit = false;
+		bool	ISyringes = false;
+		bool	ISyringesLegit = false;
+		bool	IStratagems = false;
+		bool	IMissionTime = false;
+		bool	IStamina = false;
+		bool	IHealth = false;
+		bool	NReload = false;
+		bool	MXResources = false;
+		bool	A5Resources = false;
 		bool	Recoil = false;
-		bool	InfBackpack = false;
-		bool	InfSpecWeapon = false;
+		bool	IBackpack = false;
+		bool	ISpecWeapon = false;
 		bool	NoCannonOverheat = false;
 		bool	NoStasTurretOverHeat = false;
 		bool	JetpackNoCD = false;
